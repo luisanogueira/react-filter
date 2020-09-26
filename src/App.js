@@ -1,24 +1,23 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import { Table } from './components/Table';
+import { debounce } from 'lodash';
 
 function App() {
+  const [filter, setFilter] = useState("");
+  const debounceFilter = debounce((value) => setFilter(value), 500);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="input-group flex-nowrap">
+        <input 
+          type="text" className="form-control" placeholder="Pesquisar" 
+          aria-label="pesquisar" aria-describedby="addon-wrapping" 
+          onChange={(e) => debounceFilter(e.target.value)}
+        />
+      </div>
+      <br />
+      <Table filter={filter} />
     </div>
   );
 }
