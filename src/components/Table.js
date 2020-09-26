@@ -2,14 +2,19 @@ import React from 'react';
 
 export function Table(props) {
     let tableData = [
-        ['ROSELAINE SOARES', 'MANDATA JUNTAS POR BARUERI', 'SP', 'Barueri', 'Sim', 'PSOL', 'Preta', 'Mulher Cis', 'Heterosexual',
-         'Não', [{ url: 'https://www.facebook.com/edimaraceli.rj', icon: 'facebook-official'}] ],
-        ['jose marcio ferreira reis ribeiro', 'Márcio Ribeiro Reis', 'RJ', 'Rio de Janeiro', 'Sim', 'PT', 'Preta', 'Mulher Cis', 'Heterosexual',
-         'Não', [{ url: 'https://www.facebook.com/edimaraceli.rj', icon: 'facebook-official'}] ],
-        ['Elaine Cristina da Silva', 'Pretas Juntas', 'PE', 'Recife', 'Sim', 'PDT', 'Parda', 'Mulher Cis', 'Bissexual',
-         'Sim, indigena', [{ url: 'https://www.facebook.com/edimaraceli.rj', icon: 'facebook-official'},
-                           { url: 'https://www.facebook.com/edimaraceli.rj', icon: 'instagram'},] 
+        ['Helenka Guillon', 'MANDATA JUNTAS', 'SP', 'Barueri', 'Não', 'PSOL', 'Mulher Cis', 'Heterosexual',
+         'Não', [{ url: 'https://www.facebook.com/', icon: 'facebook-official'}] ],
+        ['Kaylyn Dorin', 'Kaylyn', 'RJ', 'Rio de Janeiro', 'Sim', 'PT', 'Mulher', 'Heterosexual',
+         'Não', [{ url: 'https://www.facebook.com/', icon: 'facebook-official'}] ],
+        ['Ilene Sewal', 'Ilene', 'PE', 'Recife', 'Sim', 'PDT', 'Mulher Cis', 'Bissexual',
+         'Sim, indigena', [{ url: 'https://www.facebook.com/', icon: 'facebook-official'},
+                           { url: 'https://www.instagram.com/', icon: 'instagram'},] 
         ],
+        ['Cecile Harell', 'Ceci', 'RJ', 'Duque de Caxias', 'Não', 'PT', 'Mulher Cis', 'Homossexual',
+         'Não', [{ url: 'https://www.facebook.com/', icon: 'facebook-official'}] ],
+         ['Anabela Rubee', 'JUNTAS', 'SP', 'Campinas', 'Sim', 'PSOL', 'Mulher Cis', 'Bissexual',
+         'Sim, indigena', [{ url: 'https://www.facebook.com/', icon: 'facebook-official'},
+                           { url: 'https://www.instagram.com/', icon: 'instagram'},] ],
     ];
 
     return(
@@ -22,7 +27,6 @@ export function Table(props) {
                     <th scope="col">Cidade</th>
                     <th scope="col">Favela/ Periferia</th>
                     <th scope="col">Partido</th>
-                    <th scope="col">Raça/ Etnia</th>
                     <th scope="col">Gênero</th>
                     <th scope="col">Orientação Sexual</th>
                     <th scope="col">Povos Originários</th>
