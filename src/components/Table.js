@@ -6,15 +6,26 @@ export function Table(props) {
          'Não', [{ url: 'https://www.facebook.com/', icon: 'facebook-official'}] ],
         ['Kaylyn Dorin', 'Kaylyn', 'RJ', 'Rio de Janeiro', 'Sim', 'PT', 'Mulher', 'Heterosexual',
          'Não', [{ url: 'https://www.facebook.com/', icon: 'facebook-official'}] ],
-        ['Ilene Sewal', 'Ilene', 'PE', 'Recife', 'Sim', 'PDT', 'Mulher Cis', 'Bissexual',
+        ['Ilene Sewal', 'Ilene', 'PE', 'Recife', 'Sim', 'PDT', 'Mulher', 'Bissexual',
          'Sim, indigena', [{ url: 'https://www.facebook.com/', icon: 'facebook-official'},
                            { url: 'https://www.instagram.com/', icon: 'instagram'},] 
         ],
         ['Cecile Harell', 'Ceci', 'RJ', 'Duque de Caxias', 'Não', 'PT', 'Mulher Cis', 'Homossexual',
          'Não', [{ url: 'https://www.facebook.com/', icon: 'facebook-official'}] ],
-         ['Anabela Rubee', 'JUNTAS', 'SP', 'Campinas', 'Sim', 'PSOL', 'Mulher Cis', 'Bissexual',
+        ['Anabela Rubee', 'JUNTAS', 'SP', 'Campinas', 'Sim', 'PT', 'Mulher Cis', 'Bissexual',
          'Sim, indigena', [{ url: 'https://www.facebook.com/', icon: 'facebook-official'},
                            { url: 'https://www.instagram.com/', icon: 'instagram'},] ],
+        ['Deeyn Scarffe', 'MANDATA JUNTAS', 'SP', 'Campinas', 'Sim', 'PSOL', 'Mulher', 'Bissexual',
+        'Não', [{ url: 'https://www.facebook.com/', icon: 'facebook-official'},
+        { url: 'https://www.instagram.com/', icon: 'instagram'},] ],
+        ['Gerta Grise', 'JUNTAS', 'MG', 'Ouro Preto', 'Não', 'PDT', 'Mulher', 'Heterosexual',
+        'Não', [{ url: 'https://www.facebook.com/', icon: 'facebook-official'},
+                            { url: 'https://www.instagram.com/', icon: 'instagram'},] 
+        ],
+        ['Beatrice Dubois', 'Bea', 'PE', 'Recife', 'Não', 'PDT', 'Mulher', 'Homossexual',
+        'Não', [{ url: 'https://www.facebook.com/', icon: 'facebook-official'},
+        { url: 'https://www.instagram.com/', icon: 'instagram'},] 
+        ],
     ];
 
     return(
